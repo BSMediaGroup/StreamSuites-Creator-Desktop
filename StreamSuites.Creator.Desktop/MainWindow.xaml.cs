@@ -21,6 +21,7 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        Title = "StreamSuites\u2122 Creator";
         Loaded += OnLoaded;
     }
 
