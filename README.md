@@ -1,4 +1,4 @@
-# StreamSuites™ Creator Desktop5
+# StreamSuites™ Creator Desktop
 
 StreamSuites Creator Desktop is a lightweight Windows shell that hosts the StreamSuites™ Creator web experience in a dedicated desktop window.
 
