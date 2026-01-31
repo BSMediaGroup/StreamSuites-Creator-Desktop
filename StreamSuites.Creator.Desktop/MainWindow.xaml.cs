@@ -60,7 +60,7 @@ public partial class MainWindow : Window
         if (!TryGetAllowedUri(e.Uri, out Uri? uri))
         {
             e.Cancel = true;
-            OpenExternal(uri ?? e.Uri);
+            OpenExternal((uri ?? new Uri("https://creator.streamsuites.app")).ToString());
         }
     }
 
@@ -74,7 +74,7 @@ public partial class MainWindow : Window
         }
 
         e.Handled = true;
-        OpenExternal(uri ?? e.Uri);
+        OpenExternal((uri ?? new Uri("https://creator.streamsuites.app")).ToString());
     }
 
     private static bool TryGetAllowedUri(string? rawUri, out Uri? uri)
