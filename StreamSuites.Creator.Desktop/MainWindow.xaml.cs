@@ -3,10 +3,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Windows;
+using System.Runtime.Versioning;
 using Microsoft.Web.WebView2.Core;
 
 namespace StreamSuites.Creator.Desktop;
 
+[SupportedOSPlatform("windows")]
 public partial class MainWindow : Window
 {
     private static readonly Uri CreatorUri = new("https://creator.streamsuites.app");
