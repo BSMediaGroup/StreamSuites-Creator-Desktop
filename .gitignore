@@ -1,0 +1,97 @@
+############################################
+# Visual Studio / .NET build artifacts
+############################################
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# .NET Core / SDK
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+############################################
+# Visual Studio user-specific files
+############################################
+
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################################
+# Rider / VS Code
+############################################
+
+.idea/
+.vscode/
+
+############################################
+# Test & coverage outputs
+############################################
+
+TestResults/
+coverage/
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+############################################
+# NuGet
+############################################
+
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+
+############################################
+# Logs
+############################################
+
+*.log
+
+############################################
+# OS junk
+############################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS (harmless if present)
+.DS_Store
+
+############################################
+# WebView2 / Chromium runtime data
+############################################
+
+# Local persistent browser data (must never be committed)
+**/UserData/
+**/WebView2/
+
+############################################
+# Publish outputs
+############################################
+
+publish/
+*.publishsettings
+
+############################################
+# Temporary files
+############################################
+
+*.tmp
+*.temp
